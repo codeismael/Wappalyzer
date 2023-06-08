@@ -1,17 +1,16 @@
 {
-  "name": "madeitbelgium/wappalyzer",
+  "name": "codeismael/wappalyzer",
   "version": "2.7.0",
-  "description": "PHP Library that uncovers the technologies used on websites.",
+  "description": "PHP Library that uncovers the technologies used on websites. (Forked from Made I.T. Belgium)",
   "keywords": ["wappalyzer", "php", "laravel"],
-  "homepage": "http://www.madeit.be",
+  "homepage": "https://github.com/codeismael/Wappalyzer",
   "type": "library",
   "license": "LGPL-3.0-or-later",
   "authors": [
     {
-      "name": "Tjebbe Lievens - Made I.T.",
-      "homepage": "https://www.madeit.be",
-      "email": "tjebbe.lievens@madeit.be"
-    }
+      "name": "Ismael (Forked from Tjebbe Lievens - Made I.T.)",
+      "homepage": "https://github.com/codeismael"
+	}
   ],
   "require": {
     "illuminate/support": "*",
@@ -32,18 +31,18 @@
     "classmap": [
       "src/"
     ],
-      "psr-4": {
-          "MadeITBelgium\\Wappalyzer\\": "src/"
-      }
+    "psr-4": {
+      "CodeIsmael\\Wappalyzer\\": "src/"
+    }
   },
   "extra": {
-       "laravel": {
-           "providers": [
-               "MadeITBelgium\\Wappalyzer\\WappalyzerServiceProvider"
-           ],
-            "aliases": {
-                "Wappalyzer": "MadeITBelgium\\Wappalyzer\\WappalyzerFacade"
-            }
-       }
+    "laravel": {
+      "providers": [
+        "CodeIsmael\\Wappalyzer\\WappalyzerServiceProvider"
+      ],
+      "aliases": {
+        "Wappalyzer": "CodeIsmael\\Wappalyzer\\WappalyzerFacade"
+      }
     }
+  }
 }

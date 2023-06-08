@@ -1,6 +1,6 @@
 <?php
 
-namespace MadeITBelgium\Wappalyzer;
+namespace CodeIsmael\Wappalyzer;
 
 use Illuminate\Support\ServiceProvider;
 
